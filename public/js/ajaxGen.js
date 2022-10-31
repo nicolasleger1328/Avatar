@@ -10,7 +10,7 @@ function onClickBtn(e){
 
     let data = new FormData(form);
     e.preventDefault();
-    fetch("http://localhost/Avatar/public/index.php?id=1", {method: "POST", body: data})
+    fetch("http://localhost/Avatar/public/index.php?ajax=true", {method: "POST", body: data})
         .then((response)=> response.text())
         .then((data)=>{
             console.log("eee")

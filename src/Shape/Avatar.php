@@ -13,7 +13,7 @@ class Avatar   {
     private int $taille;
     
 
-    public function __construct($couleurs=3, $taille=5)
+    public function __construct($couleurs, $taille)
     {
 
             $this->couleurs=$couleurs;
