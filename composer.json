@@ -1,0 +1,12 @@
+{
+    "name": "nico/avatar",
+    "autoload": {
+        "psr-4": {
+            "Nico\\Avatar\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    }
+}

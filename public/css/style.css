@@ -1,0 +1,14 @@
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-form {
+  border: 5px solid rgb(40, 40, 122);
+  border-radius: 10px;
+  padding: 5px;
+}
+.avatar-svg {
+  margin-top: 150px;
+}/*# sourceMappingURL=style.css.map */
